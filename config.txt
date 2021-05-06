@@ -1,0 +1,6 @@
+excel_directory=output_files
+backup_directory=backup
+form_url=https://www.internethotline.jp/reports/edit/IHOU5
+mail_address=f20ba047@gmail.com
+name=
+group=19
