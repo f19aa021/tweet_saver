@@ -71,9 +71,9 @@ class GetTweet:
         self.output_names.append(now_time.strftime('%Y-%m-%d_%H:%M:%S'))
 
         # unix系
-        self.output_path = 'output_files/' + self.output_name + '.xlsx'
+        # self.output_path = 'output_files/' + self.output_name + '.xlsx'
         # win
-        # self.output_path = 'output_files\\' + self.output_name + '.xlsx'
+        self.output_path = 'output_files\\' + self.output_name + '.xlsx'
 
     # APIを使用してtweetを取得し任意のデータを出力ファイル用の２次元配列に追加
     def search(self):
