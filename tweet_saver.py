@@ -10,11 +10,13 @@ from email.mime.text import MIMEText
 from email.utils import formatdate
 import matplotlib.pyplot as plt
 
+from keys import Keys
+
 class GetTweet:
-    CK = 'NKu57EZlWMKtNHAws3OWY0NHb'
-    CS = 'fKkG9o22A3lObWBF2mNRoxBWzhhjgWhTpHkpHyn8kUttVMvqrT'
-    AT = '1348856236062560256-ofOP557oWNFsfKkXG7zNisw8n5s7Dy'
-    AS = 'SqNyZv9Lsejn4imIeELHGE7u2200oAvWwpTjfInUQ3m8G'
+    CK = Keys.CK
+    CS = Keys.CS
+    AT = Keys.AT
+    AS = Keys.AS
 
     twitter_api = OAuth1Session(CK, CS, AT, AS)
 
